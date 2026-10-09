@@ -1,0 +1,11 @@
+:root{--bg:#0A1322;--surface:#111E35;--line:#22324F;--text:#E8EEF8;--muted:#A3B1C8;--accent:#FFB547}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:1rem/1.7 system-ui,sans-serif}
+main{max-width:760px;margin:0 auto;padding:2.5rem 1.25rem 4rem}
+a{color:var(--accent)}
+a:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+h1{font-size:clamp(1.8rem,5vw,2.5rem);line-height:1.15;margin:1.5rem 0}
+h2{font-size:1.25rem;margin:2rem 0 .5rem}
+p,li{color:var(--muted)}
+mark{background:var(--accent);color:#1A1204;padding:0 .3em;border-radius:3px}
+.back{display:inline-block;min-height:44px;padding-top:.6rem}
